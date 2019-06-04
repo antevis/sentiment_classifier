@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Анализ тональности отзывов на смартфоны</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <h1>Демо оценки тональности отзывов на смартфоны</h1>
+
+    <ul>
+      <li>
+        <a href="https://market.yandex.ru/product--smartfon-htc-wildfire-s/7023082/reviews?track=rev_mc_marked&grade_value=1" target="_blank" id="negative-link">Примеры отрицательных отзывов</a>
+      </li>
+      <li>
+        <a href="https://market.yandex.ru/product--smartfon-nokia-5800-xpressmusic/1632006/reviews?track=rev_mc_marked&grade_value=5" target="_blank" id="positive-link">Примеры положительных отзывов</a>
+      </li>
+      <li>
+        <a href="/testset" target="_blank" id="test-set-link">Тестовая выборка отзывов</a>
+      </li>
+    </ul>
+
+    <form action="{{ url_for('index_page') }}" method=post>
+      <label for="review-text">Напишите отзыв:</label>
+      <textarea name=text rows=5 cols=40 id="review-text">{{ text }}</textarea>
+      <div class=center-container>
+        <input type=submit value="Оценить">
+      </div>
+    </form>
+
+
+    <!-- <label>Оценка тональности:&nbsp;</label> -->
+    <div class=center-container>
+      <label class="{{ color_class }}">{{ prediction_message }}</label>
+    </div>
+  </body>
+</html>

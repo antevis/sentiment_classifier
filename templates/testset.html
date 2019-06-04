@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Тестовая выборка отзывов</title>
+    <link rel="stylesheet" href="static/test-set.css">
+  </head>
+  <body>
+
+    <h1>Тестовая выборка</h1>
+
+    <h3>Оценки представляют из себя ручную разметку тестовой выборки
+      и могут отличаться от ground truth на
+      <a href="https://inclass.kaggle.com/c/product-reviews-sentiment-analysis" target="_blank" class="kaggle-link">Kaggle</a>.</h3>
+
+    <ul id="reviews">
+      {% for label, review, color_class in reviews %}
+        <!-- <li class="{{ color_class }}"> -->
+        <li>
+          <label class="sentiment {{ color_class }}">{{ label }}</label>
+          <!-- <label>Отзыв:</label> -->
+          <p class="review">{{ review }}</p>
+        </li>
+      {% endfor %}
+
+    </ul>
+  </body>
+</html>

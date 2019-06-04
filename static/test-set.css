@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+    font-family: sans-serif;
+    background-color: #122325;
+    color: #b5b5b5;
+    font-weight: lighter;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.kaggle-link {
+	margin: 0;
+	color: cadetblue;
+    text-decoration: none;
+}
+
+
+li {
+	margin: 20px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+.review {
+  margin: 0 0 32px;
+  text-align: justify;
+  color: #848a8a;
+}
+
+.sentiment {
+  margin-bottom: 0;
+  font-size: 3rem;
+  /* float: left; */
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+.negative {
+  color: #c91717;
+}
+
+.positive {
+	color: #00a11a;
+}
