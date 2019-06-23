@@ -3,7 +3,7 @@ body {
 	font-weight: lighter;
 	line-height: 1.6;
 	color: #b5b5b5;
-	background-color: #122325;
+	background-color: #061F2F;
 	width: 70%;
 	margin: 0 auto;
 }
@@ -37,7 +37,7 @@ textarea {
 	border: none;
 	border-radius: 10px;
 	margin: 0 0 20px;
-	background-color: darkslategrey;
+	background-color: #0F4162;
 	color: #b5b5b5;
 	padding: 20px;
 	resize: none;
@@ -46,7 +46,7 @@ textarea {
 input{
 	padding:15px 40px;
 	border-radius: 10px;
-	background-color:#122325;
+	background-color:#061F2F;
 	color:#b5b5b5;
 	font-weight: lighter;
 	border: solid 1px darkgreen;
