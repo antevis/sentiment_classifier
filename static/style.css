@@ -108,3 +108,9 @@ a {
 	width: 100%;
 	text-align: center;
 }
+
+img {
+	margin-top: 200px;
+	width: 60px;
+	opacity: .5;
+}
