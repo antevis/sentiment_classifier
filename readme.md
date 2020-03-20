@@ -2,7 +2,7 @@
 
 ## Оценка тональности русскоязычных отывов на смартфоны.
 
-[Live demo](http://polyconnect.ddns.net)
+[Docker container](https://hub.docker.com/repository/docker/polyconnect/sentiphone)
 
 Usage:
 1. terminal/console: python demo.py
